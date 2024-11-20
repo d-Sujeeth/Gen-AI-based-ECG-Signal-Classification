@@ -9,7 +9,7 @@ import google.generativeai as genai
 
 
 # Configure the generative model
-api_key = "AIzaSyAR2CgtR4ZqRn_o4UEta4tNW3qXvFAI0Hw"
+api_key = "your-api-key"
 if api_key is None:
     raise ValueError("GEMINI_API_KEY is not set in environment variables")
 genai.configure(api_key=api_key)
